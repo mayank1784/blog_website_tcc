@@ -1,3 +1,7 @@
 <footer>
-    Copyright &copy; All rights reserved
+    Copyright &copy; <span id="year"></span> All rights reserved
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById('year').innerHTML = currentYear;
+    </script>
 </footer>
